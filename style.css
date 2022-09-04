@@ -1,0 +1,56 @@
+body{
+    background-color: bisque;
+}
+@media (max-width:800px) {
+      .navBar{
+        display:flex;
+        flex-direction: row;
+        background-color:aqua;
+        height:auto;
+        width:800px ;
+        justify-content: space-between;
+    }
+
+    .navBarImg{
+        height:100px;
+        width: 100px;
+    }
+
+    .desserts{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .Tiramisu{
+        display: flex;
+        flex-direction: column;
+        border: 3px solid white;
+        width:33%;
+        height:33%;
+        align-items: center;
+    }
+
+    .strawberry-shortcake{
+        display: flex;
+        flex-direction: column;
+        border: 3px solid white;
+        width:33%;
+        height:33%;
+        align-items: center;
+    }
+
+    .matcha-crepe{
+        display: flex;
+        flex-direction: column;
+        border: 3px solid white;
+        width:33%;
+        height:33%;
+        align-items: center;
+    }
+
+    .dessertImg{
+        width:100%;
+        height:200px;
+    }
+}
