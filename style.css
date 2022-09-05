@@ -5,14 +5,16 @@ body{
       .navBar{
         display:flex;
         flex-direction: row;
-        flex: 1 0 calc(30% - 10px);
         justify-content: center;
+        width:100vw;
+        height:auto;
         background-image: url(./dessert-images/nav1.webp);
     }
 
     .warning{
         color:red;
         font-weight: bold;
+        font-size:x-large;
     }
 
     .desserts{
