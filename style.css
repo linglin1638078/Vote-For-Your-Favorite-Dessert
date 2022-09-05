@@ -6,7 +6,7 @@ body{
         display:flex;
         flex-direction: row;
         justify-content: center;
-        width:100vw;
+        width:100%;
         height:auto;
         background-image: url(./dessert-images/nav1.webp);
     }
