@@ -2,29 +2,24 @@ body{
     background-image: url(./dessert-images/background.jpg);
     font-family:cursive
 }
+@media(max-width:800px){
       .navBar{
         display:flex;
         flex-direction: row;
-        height:auto;
-        width:100% ;
+        flex: 1 0 calc(30% - 10px);
         justify-content: center;
         background-image: url(./dessert-images/nav1.webp);
-    }
-
-    .navBarImg{
-        height:100px;
-        width: 100px;
     }
 
     #warning{
         color:red;
         font-weight: bold;
     }
-    
+
     .desserts{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
 
     }
@@ -33,8 +28,7 @@ body{
         display: flex;
         flex-direction: column;
         border: 3px solid white;
-        width:25%;
-        height:25%;
+        flex: 1 0 calc(30% - 10px);
         align-items: center;
         margin: 5px;
         background-color:antiquewhite;
@@ -44,8 +38,7 @@ body{
         display: flex;
         flex-direction: column;
         border: 3px solid white;
-        width:25%;
-        height:25%;
+        flex: 1 0 calc(30% - 10px);
         align-items: center;
         margin: 5px;
         background-color:antiquewhite;
@@ -55,8 +48,7 @@ body{
         display: flex;
         flex-direction: column;
         border: 3px solid white;
-        width:25%;
-        height:25%;
+        flex: 1 0 calc(30% - 10px);
         align-items: center;
         margin: 5px;
         background-color:antiquewhite;
@@ -66,8 +58,7 @@ body{
         display: flex;
         flex-direction: column;
         border: 3px solid white;
-        width:25%;
-        height:25%;
+        flex: 1 0 calc(30% - 10px);
         align-items: center;
         margin: 5px;
         background-color:antiquewhite;
@@ -77,8 +68,7 @@ body{
         display: flex;
         flex-direction: column;
         border: 3px solid white;
-        width:25%;
-        height:25%;
+        flex: 1 0 calc(30% - 10px);
         align-items: center;
         margin: 5px;
         background-color:antiquewhite;
@@ -88,8 +78,7 @@ body{
         display: flex;
         flex-direction: column;
         border: 3px solid white;
-        width:25%;
-        height:25%;
+        flex: 1 0 calc(30% - 10px);
         align-items: center;
         margin: 5px;background-color:antiquewhite;
 
@@ -107,3 +96,5 @@ body{
         font-size: large;
         font-family: cursive;
     }
+
+}
